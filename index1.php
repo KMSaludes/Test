@@ -11,7 +11,7 @@
 </head>
 <body>
 <center>
-<div class="display-1">SALUDES,K</div>
+<div class="display-1">je t'aime</div>
 <!-- Button trigger modal -->
 <button type="button" class="btn btn-info" id="loginbutton" data-toggle="modal" data-target="#exampleModal">
   Login
@@ -30,12 +30,12 @@
       <div class="modal-body">
        <form>
   <div class="form-group">
-    <label for="exampleInputEmail1" Email address</label>
+    <label for="exampleInputEmail1" id="Email">Email address</label>
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
     <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
   </div>
   <div class="form-group">
-    <label for="exampleInputPassword1">Password</label>
+    <label for="exampleInputPassword1" id="Password">Password</label>
     <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
   </div>
   <div class="form-group form-check">
@@ -45,8 +45,8 @@
 </form>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-        <button type="button" class="btn btn-primary" id="gobutton" data-dismiss="modal">Goooo!</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Annuler</button>
+        <button type="button" class="btn btn-primary" id="gobutton" data-dismiss="modal">Aller!</button>
       </div>
     </div>
   </div>
@@ -54,4 +54,8 @@
 </div>
 </body>
 </html>
+<!-- this is a comment
 
+localStorage
+Storage {test_password: "hjfgcgthgghv", testlangnaman: "215465665", test_email: "Kaleb@Arkin.ph", length: 3}
+-->
