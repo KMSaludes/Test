@@ -1,0 +1,19 @@
+.num_button {
+    height: 50px;
+    width: 50px;
+    margin: 5px 5px 5px 5px;
+}
+.display input{
+    text-align:right;
+    padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
+    font-size: 20px;
+    width: 180px;
+}
+.calc_container {
+    position: absolute;
+    left-margin: auto;
+    height: 500px;
+    width: 200px;
+    border: 1px solid gray;
+}
