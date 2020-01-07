@@ -1,0 +1,24 @@
+input[type=button] {
+    height: 50px;
+    width: 200px;
+    color: gray;
+    border-radius: 5px;
+    border: 5px solid black;
+    font-style: serif;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+input[type=button]:active {
+    background-color: yellow;
+    color: green;
+}
+
+.circle {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: pink;
+    color: black;
+    display: inline-block;
+}

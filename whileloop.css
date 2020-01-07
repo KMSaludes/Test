@@ -1,0 +1,30 @@
+body {
+    user-select: none
+}
+h1{
+    color: solid black
+}
+input[type=button] {
+    height: 50px;
+    width: 200px;
+    color: gray;
+    border-radius: 5px;
+    border: 5px solid black;
+    font-style: serif;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+input[type=button]:active {
+    background-color: yellow;
+    color: green;
+}
+
+.triangle {
+    width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid black;
+	display: inline-block;
+}
